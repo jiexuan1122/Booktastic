@@ -1,0 +1,123 @@
+html{
+background-image: url("bg.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.welcome{
+background-color: cornsilk;
+font-family: monospace;
+box-shadow: 10px 5px 5px bisque;
+}
+
+.container{
+max-width: 1300px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+.navbar{
+display: flex;
+align-items: center;
+padding: 20px;
+}
+
+nav{
+flex: 1;
+text-align: right;
+}
+
+nav ul{
+display: inline-block;
+list-style-type: none;
+}
+
+nav ul li{
+font-weight: bold;
+display: inline-block;
+}
+
+.buttons{
+background-color: saddlebrown;
+border: none;
+color: white;
+padding: 5px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 4px;
+cursor: pointer;
+}
+
+a:link{
+color:brown;
+}
+
+a:hover{
+background-color:white;
+color:black;
+}
+
+a:active{
+background-color: blanchedalmond;
+color:black;
+}
+
+hr{
+border-bottom: 20px ridge black;
+}
+
+.div{
+display: flex;
+}
+
+.books{
+width: 70%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+background-color: cornsilk;
+}
+
+.fiction{
+margin: 20px;
+list-style-type: none; 
+flex-basis: 50%;
+}
+
+
+.nonfiction{
+margin: 20px;
+list-style-type: none;
+flex-basis: 50%;
+}
+
+.children{
+margin: 20px;
+list-style-type: none;
+flex-basis: 50%;
+}
+
+h3{
+text-shadow: 2px 2px 10px #db7795;
+text-align: center;
+}
+
+.instructions{
+flex: 1;
+margin-left: 20px;
+background-color: beige;
+font-family: cursive;
+}
+
+.instructions strong{
+color: red;
+font-size: larger;}
+
+footer{
+margin-top: 10px;
+display: inline-block;
+background-color: white;
+}

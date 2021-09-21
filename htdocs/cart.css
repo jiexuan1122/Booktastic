@@ -1,0 +1,95 @@
+html{
+background-image: url("bg.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.welcome{
+background-color: cornsilk;
+}
+
+.container{
+max-width: 1300px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+.navbar{
+display: flex;
+align-items: center;
+padding: 20px;
+}
+
+nav{
+flex: 1;
+text-align: right;
+}
+
+nav ul{
+display: inline-block;
+list-style-type: none;
+}
+
+nav ul li{
+font-weight: bold;
+display: inline-block;
+}
+
+.buttons{
+background-color: saddlebrown;
+border: none;
+color: white;
+padding: 5px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 4px;
+cursor: pointer;
+}
+
+a:hover{
+background-color:white;
+color:black;
+}
+
+a:active{
+background-color: blanchedalmond;
+color:black;
+}
+
+hr{
+border-bottom: 20px ridge black;
+}
+
+.cont{
+background-color: whitesmoke;
+}
+
+.card-body{
+text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: black;
+    background-color: burlywood;
+    padding: 2%
+}
+
+button{
+    background-color:darkblue;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: lightblue;
+    color: black;
+}

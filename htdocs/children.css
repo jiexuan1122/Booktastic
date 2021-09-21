@@ -1,0 +1,104 @@
+html{
+background-image: url("bg.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.welcome{
+background-color: cornsilk;
+}
+
+.container{
+max-width: 1300px;
+margin: auto;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+.navbar{
+display: flex;
+align-items: center;
+padding: 20px;
+}
+
+nav{
+flex: 1;
+text-align: right;
+}
+
+nav ul{
+display: inline-block;
+list-style-type: none;
+}
+
+nav ul li{
+font-weight: bold;
+display: inline-block;
+}
+
+.buttons{
+background-color: saddlebrown;
+border: none;
+color: white;
+padding: 5px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+margin: 4px 4px;
+cursor: pointer;
+}
+
+a:hover{
+background-color:white;
+color:black;
+}
+
+a:active{
+background-color: blanchedalmond;
+color:black;
+}
+
+hr{
+border-bottom: 20px ridge black;
+}
+
+.children {
+float: left;
+width: 300px;
+padding: 10px;
+margin: 20px;
+box-shadow: 0 4px 8px;
+text-align: center;
+font-family: arial;
+background-color: antiquewhite;
+}
+
+.product::after {
+content: "";
+clear: both;
+display: table;
+}    
+
+.price {
+color: red;
+font-size: 22px;
+font-weight: bold;
+}
+
+.children button {
+border: none;
+outline: 0;
+padding: 12px;
+color: white;
+background-color: black;
+text-align: center;
+cursor: pointer;
+width: 100%;
+font-size: 18px;
+}
+
+.children button:hover {
+color: black;
+background-color: white;
+}
